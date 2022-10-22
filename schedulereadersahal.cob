@@ -9,7 +9,7 @@
        DATA DIVISION.
        FILE SECTION.
        WORKING-STORAGE SECTION.
-       01 matkul pic 9(1).
+       01 matkul pic 9(2).
        PROCEDURE DIVISION.
        PILIHAN-MATA-KULIAH.
             DISPLAY "----DAFTAR MATA KULIAH----"
@@ -26,8 +26,6 @@
             DISPLAY "11. Struktur Data"
             DISPLAY "Masukkan pilihan mata kuliah (1-11) : ".
             ACCEPT matkul.
-
-
        MEMILIH-MENU.
            IF matkul = 1 GO TO Matkul-1.
            IF matkul = 2 GO TO Matkul-2.
